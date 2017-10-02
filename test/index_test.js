@@ -3,6 +3,9 @@ var jsdom = require('jsdom'),
     assert = require('chai').assert,
     file = fs.readFileSync('index.html').toString();
 
+
+
+
 describe('Your HTML Page', function() {
   var window;
   before(function(next) {
